@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+  
+  }
+
+  h1{
+      color:white;
+      font-size: 30px;
+      text-align: center;
+  }
+  
+  #numofsquares{
+    width: 100%;
+    color:white;
+    font-size: 25px;
+    background-color: black;
+    text-align: center;
+  }
+  
+  #makesquares{
+    width: 100%;
+    color: white;
+    background-color:black;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  #container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .content{
+    width: 300px;
+    margin: 20px;
+  }
+  
+  #squarecontainer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+  }
+  
+  .square{
+    border: solid 2px white;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+  }
