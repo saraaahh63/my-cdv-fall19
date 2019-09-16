@@ -2,31 +2,42 @@ let viz = d3.select("#viz-container")
         .append("svg")
             .attr("id","viz")
             .attr("width","800")
-            .attr("height", "800")
+            .attr("height", "500")
 ;
 
+function averageData(data){
+    let newData = [];
+    let keys = Object.keys(data[data.length-1]);
+    for(let i = 0; i < keys.length; i++){
+      let key = keys[i];
+      let sum = 0;
+      let num = 0;
+      for(let j = 0; j < data.length; j++){
+        let datum = data[j];
+        if(key in datum){
+          sum += datum[key];
+          num++;
+        }
+      }
+      let avg = sum/num;
+      if(!isNaN(avg)){
+        let newDataPoint = {"name": key, "average": avg, 'numMeasurements': num};
+        newData.push(newDataPoint);
+      }
+    }
+    return newData;
+  }
 
-viz.attr("height","500");
 
-// let myCircle = viz.append("circle")
-//         .attr("cx","200")
-//         .attr("cy","100")
-//         .attr("r","50")
-// ;
+function gotData(newdata){
+    data = averageData(newdata);
+    viz.selectAll("circle").data(data).enter().append("circle")
+            .attr("fill", "white")
+            .attr("stroke","black")
+            .attr("cx", () => Math.random() * 450)
+            .attr("cy", 450)
+            .attr("r", 20)
+    ;
+  }
 
-// myCircle.attr("fill","white");
-
-// let myRect = viz.append("rect")
-//         .attr("x","400")
-//         .attr("y","200")
-//         .attr("width","300")
-//         .attr("height","100")
-// ;
-
-let myData = [3,6,8,1,5];
-
-viz.selectAll("circle").data(myData).enter().append("circle")
-            .attr("cx","120")
-            .attr("cy","100")
-            .attr("r","20")
-;
+d3.json("data.json").then(gotData);
