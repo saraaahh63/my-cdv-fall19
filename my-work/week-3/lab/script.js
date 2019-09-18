@@ -12,8 +12,6 @@ function getWord(datapoint, i){
     console.log(datapoint.wordphrase);
 }
 
-getWord;
-
 function gotData(incomingData){
 
     console.log(incomingData);
@@ -53,15 +51,3 @@ d3.json("data.json").then(gotData);
 // 12. let's assume: "D3 passes another value!"
 // 13. how can we receive that value?
 // 14. in which ways is D3 making our live easy?
-
-//  شفيك
-// يلا
-//  يصير خير
-// متبتب
-//  مصلحشية
-//  يا قتة
-// حبيبي
-// قلبي
-//  لعبة
-//  حاضر
-// يعني
