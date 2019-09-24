@@ -18,10 +18,6 @@ function gotData(incomingData){
             .attr("height", 800)
     ;
 
-    
-    viz
-    ;
-
     viz.selectAll("g").data(incomingData)
         .enter()
             .append("g")
