@@ -1,0 +1,35 @@
+[
+  {
+    "age": 85,
+    "birth_year": 1921,
+    "cause_of_death": "natural causes",
+    "death_month": "January",
+    "death_year": 2006,
+    "famous_for": "businessman chairman of IBM (1973���1981)",
+    "name": "Frank Cary",
+    "nationality": "American",
+    "fame_score": 230
+  },
+  {
+    "age": 49,
+    "birth_year": 1957,
+    "cause_of_death": "murdered",
+    "death_month": "January",
+    "death_year": 2006,
+    "famous_for": "musician (House of Freaks Gutterball)",
+    "name": "Bryan Harvey",
+    "nationality": "American",
+    "fame_score": 250
+  },
+  {
+    "age": 64,
+    "birth_year": 1942,
+    "cause_of_death": "Alzheimer's disease",
+    "death_month": "January",
+    "death_year": 2008,
+    "famous_for": "baseball player (Oakland Athletics)",
+    "name": "Paul Lindblad",
+    "nationality": "American",
+    "fame_score": 400
+  }
+]

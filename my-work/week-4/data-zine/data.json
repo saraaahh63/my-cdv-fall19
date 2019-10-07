@@ -1,0 +1,111 @@
+[
+    {
+        "wordphrase": "safar",
+        "count": 2,
+        "daycount": 1,
+        "context": "schoolwork"
+    },
+    {
+        "wordphrase": "ashab",
+        "count": 1,
+        "daycount": 1,
+        "context": "schoolwork"
+    },
+    {
+        "wordphrase": "Ya3ni",
+        "count": 4,
+        "daycount": 1,
+        "context": "schoolwork & family"
+    },
+    {
+        "wordphrase": "dui",
+        "count": 2,
+        "daycount": 2,
+        "context": "family"
+    },
+    {
+        "wordphrase": "weather",
+        "count": 1,
+        "daycount": 1,
+        "context": "family"
+    },
+    {
+        "wordphrase": "keyi",
+        "count": 5,
+        "daycount": 5,
+        "context": "others & family"
+    },
+    {
+        "wordphrase": "shenme",
+        "count": 1,
+        "daycount": 1,
+        "context": "others & family"
+    },
+    {
+        "wordphrase":  "Hadher",
+        "count": 2,
+        "daycount": 2,
+        "context": "others & family"
+    },
+    {
+        "wordphrase": "chu qu wanr",
+        "count": 1,
+        "daycount": 1,
+        "context": "others"
+    },
+    {
+        "wordphrase": "mtabtab",
+        "count": 5,
+        "daycount": 4,
+        "context": "others"
+    },
+    {
+        "wordphrase": "shfeek",
+        "count": 1,
+        "daycount": 1,
+        "context": "others"
+    },
+    {
+        "wordphrase": "i9eer 5air",
+        "count": 2,
+        "daycount": 2,
+        "context": "others"
+    },
+    {
+        "wordphrase": "Aloo",
+        "count": 3,
+        "daycount": 2,
+        "context": "others"
+    },
+    {
+        "wordphrase": "Inshallah",
+        "count": 2,
+        "daycount": 1,
+        "context": "others"
+    },
+    {
+        "wordphrase": "Enzein",
+        "count": 1,
+        "daycount": 1,
+        "context": "others"
+    },
+    
+    {
+        "wordphrase": "9ij",
+        "count": 6,
+        "daycount": 4,
+        "context": "others"
+    },
+    {
+        "wordphrase": "Habibi",
+        "count": 3,
+        "daycount": 2,
+        "context": "others"
+    },
+    {
+        "wordphrase": "yalla",
+        "count": 8,
+        "daycount": 6,
+        "context": "all contexts"
+    }
+]

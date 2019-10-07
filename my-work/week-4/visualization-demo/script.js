@@ -3,11 +3,6 @@ function datapoint(datapoint, i){
     return (i + 1) * 60;
 }
 
-function getWord(datapoint, i){
-
-    console.log(datapoint.wordphrase);
-}
-
 function gotData(incomingData){
 
     console.log(incomingData);
