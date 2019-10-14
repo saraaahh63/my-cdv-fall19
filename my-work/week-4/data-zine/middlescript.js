@@ -95,11 +95,12 @@ function yPosition(d,i){
 }
 
 function getGroupTranslation(d, i){
-  return "translate(" + xPosition(d,i) + "," + yPosition(d,i) + ")";
+  let trans =  "translate(" + xPosition(d,i) + "," + yPosition(d,i) + ")";
+  console.log(trans);
+  return trans;
 }
 
 function gotData(incomingData){
-  console.log(incomingData);
 
   let datagroups = viz.selectAll(".datagroup").data(incomingData).enter()
     .append("g")
