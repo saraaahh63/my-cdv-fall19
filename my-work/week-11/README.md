@@ -1,6 +1,6 @@
 ### New Dark Age: Cloud
 
-Note: I picked the first quote and wrote my response to it as I was reading and not after I had read the whole chapter. In hingsight, I probably should have read the whole thing first.
+Note: I picked the first quote and wrote my response to it as I was reading and not after I had read the whole chapter. In hindsight, I probably should have read the whole thing first.
 
 **Three Quotes:**
 
