@@ -1,6 +1,6 @@
 @font-face {
     font-family: Barlow;
-    src:url(../css/font/barlow.ttf);
+    src:url('assets/barlow.otf');
    }
   
   body{
@@ -19,7 +19,7 @@
     
     
     #wrapper{
-      display: flex;
+      display: block;
       top: 0;
       left: 0;
       height: 100%;
@@ -27,10 +27,10 @@
       background-color: black;
     }
     #sketchholder {
-      position: sticky;
+      position: relative;
       top: 0;
       left: 0;
-      height: 800px;
+      height: 100px;
       width: 1250px;
       /* background-color: black; */
     }
@@ -40,6 +40,7 @@
       height: 800px;
       position: fixed;
       right: 0;
+      top: 0;
       background-color: black;
     }
     
@@ -113,8 +114,19 @@
     padding: 0;
     line-height: 1.6;
     width: 1100px;
-    position: absolute;
+    position: relative;
     top: 15%;
+    left: 3.5%;
+    color: white;
+  }
+
+  #p3 {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    width: 1100px;
+    position: relative;
+    top: 755%;
     left: 3.5%;
     color: white;
   }
@@ -124,35 +136,26 @@
     padding: 0;
     line-height: 1.6;
     width: 800px;
-    position: absolute;
+    position: relative;
     top: 100%;
     left: 10%;
     color: lightgrey;
   }
 
-  #p3 {
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    width: 1100px;
-    position: absolute;
-    top: 755%;
-    left: 0;
-    color: white;
-  }
-
   #highlights {
-    position: absolute;
-    top: 100%;
-    left: 0%;
+    position: relative;
+    top: 915%;
+    left: 3.5%;
     color: white;
+    width: 1100px;
   }
 
   #sources {
-    position: absolute;
-    top: 260%;
-    left: 0%;
+    position: relative;
+    top: 1000%;
+    left: 3.5%;
     color: white;
+    width: 1100px;
   }
 
   ul {

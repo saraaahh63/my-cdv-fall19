@@ -23,7 +23,7 @@ function preload() {
 }
 
 function setup() {
-  var cnv = createCanvas(900, 3000);
+  var cnv = createCanvas(900, 200);
   frameRate(20);
   console.log("HELLO PLS");
   cnv.parent('sketchholder');
@@ -38,7 +38,7 @@ function draw() {
     textSize(40);
     typewriteText(title, 50, 80);
 
-    typewriteText(datatitle, 50, 2450);
+    // typewriteText(datatitle, 50, 2450);
 }
 
 function typewriteText(textt,x,y) {
