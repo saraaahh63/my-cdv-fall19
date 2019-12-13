@@ -227,7 +227,7 @@ function gotData(incomingData){
       document.getElementById("wfdf").style.background = "black";
       document.getElementById("df").style.background = "black";
       document.getElementById("dm").style.background = "black";
-      document.getElementById("dfm").style.color = "black;"
+      document.getElementById("dfm").style.color = "black";
       document.getElementById("wmdm").style.color = "white";
       document.getElementById("wfdf").style.color = "white";
       document.getElementById("df").style.color = "white";
@@ -246,6 +246,12 @@ function gotData(incomingData){
 
       document.getElementById("dropbtn").style.background = "black";
       document.getElementById("dropbtn").style.color = "white";
+
+      document.getElementById("dfm").style.color = "white";
+      document.getElementById("wmdm").style.color = "white";
+      document.getElementById("wfdf").style.color = "white";
+      document.getElementById("df").style.color = "white";
+      document.getElementById("dm").style.color = "white";
 
       year = 0;
       ethn = "reset";
