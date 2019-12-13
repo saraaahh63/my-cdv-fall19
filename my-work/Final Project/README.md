@@ -40,7 +40,6 @@ Over 2009-2013:
 - 1% of films were directed by women of color.
 
 ![alt test](images/1.png)
-![alt test](images/viz.gif)
 ![alt test](images/2.png)
 
 
