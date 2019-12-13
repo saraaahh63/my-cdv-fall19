@@ -34,14 +34,14 @@ In terms of interface, I had wanted to create a grid of movies and watch them di
 The resulting data was honestly quite shocking. I expected low diversity percentages, but not as low as what it turned out to be. 
 
 Over 2009-2013:
-81% of films were directed by caucasian men.
-11% of films were directed by men of color.
-7% of films were directed by caucasian women.
-1% of films were directed by women of color.
+- 81% of films were directed by caucasian men.
+- 11% of films were directed by men of color.
+- 7% of films were directed by caucasian women.
+- 1% of films were directed by women of color.
 
 ![alt test](images/1.png)
-![alt test](images/2.png)
 ![alt test](images/viz.gif)
+![alt test](images/2.png)
 
 
 ## Final Thoughts and Future Progress
