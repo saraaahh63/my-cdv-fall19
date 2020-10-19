@@ -2,6 +2,8 @@
 
 Hi! My name is Sarah Tahir and in this repository I will develop [my work](my-work) for [this class](https://github.com/leoneckert/cdv-fall19) that I am taking in the Fall Semester 2019.
 
+Take a look at my final project: [The Hollywood Diversity Report](https://github.com/saraaahh63/my-cdv-fall19/tree/master/my-work/Final%20Project) where I look at diversity among Hollywood directors. This project sparked continued interest in Python, data visualization, web scraping and d3.
+
 
 ###### Notes:
 
